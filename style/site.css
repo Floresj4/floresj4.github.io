@@ -1,4 +1,32 @@
+body {
+	background-color:#2b3954;
+}
+
 div#main-container {
-	width: 900px;
-	margin: 0 auto;
+	width:900px;
+	margin:0 auto;
+}
+
+div.center-container {
+	width:900px;
+	margin:0 auto;
+}
+
+div#header-bar{
+	height:60px;
+	background-color:#000;
+	border:none;
+}
+
+div#header-container {
+	background-color:#000;
+	height:120px;
+	padding:40px 0;
+}
+
+img.header-image {
+	width:200px;
+	border:2px solid #000;
+	display:inline-block;
+	
 }
