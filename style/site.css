@@ -11,6 +11,7 @@ div#main-container {
 
 div.center-container {
 	width:900px;
+	height: inherit;
 	margin:0 auto;
 }
 
@@ -30,5 +31,20 @@ img.header-image {
 	width:200px;
 	border:2px solid #000;
 	display:inline-block;
-	
+	float:left;	
+}
+
+ul.social-media-links {
+	list-style: none;
+	display:block;
+	float:right;
+}
+
+ul.social-media-links li {
+	display:inline-block;
+	padding:10px 5px 0 5px;
+}
+
+ul.social-media-links img {
+	height:40px;
 }
