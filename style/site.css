@@ -10,7 +10,8 @@ div#main-container {
 }
 
 div.center-container {
-	width:900px;
+	width:50%;
+	min-width: 600px;
 	height: inherit;
 	margin:0 auto;
 }
