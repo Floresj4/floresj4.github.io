@@ -2,4 +2,10 @@
 layout: default
 ---
 
-...
+{% for post in site.posts %}
+	<div class='center-container post-content'>
+		<h3><kbd>{{ post.title }}</kbd></h3>
+		<p>{{post.content}}</p>
+		<p>{{post.date | date: "%-d %B %Y"}}</p>
+	</div>
+{% endfor %}
