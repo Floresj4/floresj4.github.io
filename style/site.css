@@ -16,6 +16,15 @@ div.center-container {
 	margin:0 auto;
 }
 
+div.post-content {
+	padding-top:10px;
+	color:#E8EAEA;
+	clear:left;
+}
+div.post-content p {
+	padding-left:10px;
+}
+
 div#header-bar{
 	height:60px;
 	background-color:#000;
