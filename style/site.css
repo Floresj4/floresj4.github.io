@@ -58,3 +58,7 @@ ul.social-media-links li {
 ul.social-media-links img {
 	height:40px;
 }
+
+.right-container {
+	float:right;
+}
