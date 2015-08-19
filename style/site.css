@@ -62,3 +62,34 @@ ul.social-media-links img {
 .right-container {
 	float:right;
 }
+
+/** font-face specific style attributes **/
+.code {
+	font-family:Courier New, sans-serif;
+	font-size:14px;
+}
+
+
+.blog-links {
+	list-style:none;
+	padding-left:10px;
+	display:table;
+}
+
+.git-link {
+	display:inline-block;
+	height:30px;
+	width:30px;
+	background-image:url('../images/github_02.png');
+	background-size:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.git-link a{
+	display:table-cell;
+	vertical-align: middle;
+	height:inherit;
+	text-indent:35px;
+	line-height:3;
+}
