@@ -8,7 +8,7 @@ Cross one off my list... I had been telling myself I would make time to write a 
 <ul class='blog-links'>
 	<li>
 		<span class='git-link'>
-			<a href='https://github.com/Floresj4/JavaAnnotations' class='code'>@Floresj4/JavaAnnotations</a>
+			<a href='https://github.com/Floresj4/JavaAnnotations' target="_blank" class='code'>@Floresj4/JavaAnnotations</a>
 		</span>
 	</li>
 </ul>
