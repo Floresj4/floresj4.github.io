@@ -74,6 +74,14 @@ ul.social-media-links img {
 	list-style:none;
 	padding-left:10px;
 	display:table;
+	width:100%;
+}
+.blog-links a{
+	display:table-cell;
+	vertical-align: middle;
+	height:inherit;
+	text-indent:35px;
+	line-height:3;
 }
 
 .git-link {
@@ -86,10 +94,57 @@ ul.social-media-links img {
 	background-repeat: no-repeat;
 }
 
-.git-link a{
-	display:table-cell;
-	vertical-align: middle;
-	height:inherit;
-	text-indent:35px;
-	line-height:3;
+.instagram-link {
+	display:inline-block;
+	height:30px;
+	width:30px;
+	background-image:url('../images/instagram.png');
+	background-size:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.instagram-link a,
+.git-link a {
+	position:absolute;
+	width:100%;
+}
+
+.thumb {
+	border:1px solid #5d5d5d;
+}
+
+.thumb-center {
+	display:block !important;
+	margin:0 auto;
+}
+
+.thumb-nikon-2 {
+	display: inline-block;
+	float:left;
+	width:100%;
+	margin:5px;
+}
+
+.thumb-phone {
+	width:60%;
+	display: inline-block;
+}
+
+.thumb-inline {
+	float:left;
+	margin-right:10px;
+}
+
+.thumb-clear {
+	clear:both;
+}
+
+.base-padding {
+	padding:5px;
+}
+
+.col-1 { width:100%; }
+.col-2 {
+	width:50%;
+	float:left;
 }
