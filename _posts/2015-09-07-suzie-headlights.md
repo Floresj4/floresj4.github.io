@@ -45,7 +45,7 @@ Lastly, the 3M coating is applied.  Between the Trizact pad and the protective c
 		</a>
 	</div>
 	<div class='col-2 base-padding'>
-		<a href='/images/headlightrestore00.JPG' data-lightbox="headlightrestore">
+		<a href='/images/headlightrestore05.JPG' data-lightbox="headlightrestore">
 			<img src="/images/headlightrestore05.JPG" class="thumb thumb-nikon-2" />
 		</a>
 	</div>
