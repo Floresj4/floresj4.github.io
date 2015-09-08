@@ -7,12 +7,12 @@ Suzie is my Subaru, a Silver 2009 Subaru Legacy 2.5i.  I recently came across an
 
 <div>
 	<div class='col-2 base-padding'>
-		<a href='/images/headlightrestore00.JPG' data-lightbox="roadtrip">
+		<a href='/images/headlightrestore00.JPG' data-lightbox="headlightrestore">
 			<img src="/images/headlightrestore00.JPG" class="thumb thumb-nikon-2" />
 		</a>
 	</div>
 	<div class='col-2 base-padding'>
-		<a href='/images/headlightrestore01.JPG' data-lightbox="roadtrip">
+		<a href='/images/headlightrestore01.JPG' data-lightbox="headlightrestore">
 			<img src="/images/headlightrestore01.JPG" class="thumb thumb-nikon-2" />
 		</a>
 	</div>
@@ -26,8 +26,8 @@ It starts with the P500 disc...  I'll admit, I was worried as soon as the disc t
 
 <div>
 	<div class='col-1 base-padding'>
-		<a href='/images/headlightrestore02.JPG' data-lightbox="roadtrip">
-			<img src='/images/headlightrestore02.JPG' class='thumb thumb-phone thumb-center' />
+		<a href='/images/headlightrestore02.jpg' data-lightbox="headlightrestore">
+			<img src='/images/headlightrestore02.jpg' class='thumb thumb-phone thumb-center' />
 		</a>
 	</div>
 </div>
@@ -40,12 +40,12 @@ Lastly, the 3M coating is applied.  Between the Trizact pad and the protective c
 
 <div>
 	<div class='col-2 base-padding'>
-		<a href='/images/headlightrestore04.JPG' data-lightbox="roadtrip">
+		<a href='/images/headlightrestore04.JPG' data-lightbox="headlightrestore">
 			<img src="/images/headlightrestore04.JPG" class="thumb thumb-nikon-2" />
 		</a>
 	</div>
 	<div class='col-2 base-padding'>
-		<a href='/images/headlightrestore00.JPG' data-lightbox="roadtrip">
+		<a href='/images/headlightrestore00.JPG' data-lightbox="headlightrestore">
 			<img src="/images/headlightrestore05.JPG" class="thumb thumb-nikon-2" />
 		</a>
 	</div>
