@@ -4,34 +4,32 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% if page.title %}{{ page.title }}{% else %} Floresj4.github.io{% endif %}</title>
-	<link rel='stylesheet' type='text/css' href='bower_components/bootstrap/dist/css/bootstrap.min.css' />
 	<link rel='stylesheet' type='text/css' href='bower_components/lightbox2/dist/css/lightbox.css' />
 	<link rel='stylesheet' type='text/css' href='style/site.css' />
+	<link rel='stylesheet' type='text/css' href='style/flo.css' />
 	<script type='text/javascript' src="bower_components/jquery/dist/jquery.js"></script>
 </head>
 <body>
 	
-	<div id='header-bar'>
-		<div class='center-container'>
-			<img src='images/jflores.jpeg' class='header-image'/>
+	<div class='col-1 header-bar'></div>
 
-			<div class='right-container social-media'>
-
-				<img src='images/slnt.png' />
-				
-				<ul class='social-media-links'>
-					<li>
-						<a href="https://github.com/Floresj4" target="_blank">
-							<img src="images/github_02.png" />
-						</a>
-					</li>
-					<li>
-						<a href="https://instagram.com/floresj04" alt="Picture my life..." target="_blank">
-							<img src="images/instagram.png" />
-						</a>
-					</li>
-				</ul>
-			</div>
-		
+	<div class='col-1 stage'>
+	
+		<div class='col-2 spacer-btm-lg'>
+			<img src='./images/jflores.jpeg' />
 		</div>
-	</div>
+		<div class='col-2 spacer-btm-lg'>
+			<ul class='social-links'>
+				<li><a href="https://github.com/Floresj4" target="_blank">
+					<img src="images/github_02.png" class='git-thumb'/>
+				</a></li>
+				<li><a href="https://instagram.com/floresj04" alt="Picture my life..." target="_blank">
+					<img src="images/instagram.png" class='instagram-thumb'/>
+				</a></li>
+				<li><a href="https://www.linkedin.com/pub/jason-flores/1b/396/239" target="_blank">
+					<img src="images/linkedin.png" />
+				</a></li>
+			</ul>
+		</div>
+		
+		<div class='col-1'>

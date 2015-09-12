@@ -4,147 +4,54 @@ body {
 	margin-bottom:0;
 }
 
-div#main-container {
-	width:900px;
-	margin:0 auto;
+.header-bar {
+	background-color: #000;
+	position: absolute;
+	height:150px;
+	z-index:-1;
+	left:0;
+	top:0;
 }
 
-div.center-container {
-	width:50%;
-	min-width: 600px;
-	height: inherit;
-	margin:0 auto;
+.social-links {
+	float:right;
+	padding-left:0;
+	margin-top: 40px;
 }
-
-div.post-content {
-	padding-top:10px;
-	color:#E8EAEA;
-	clear:left;
-}
-div.post-content p {
-	padding-left:10px;
-}
-
-div#header-bar{
+.social-links li {
 	height:60px;
-	background-color:#000;
-	border:none;
-}
-
-div#header-container {
-	background-color:#000;
-	height:120px;
-	padding:40px 0;
-}
-
-img.header-image {
-	width:200px;
-	border:2px solid #000;
 	display:inline-block;
-	float:left;	
 }
-
-ul.social-media-links {
-	list-style: none;
-	display:block;
-	float:right;
-}
-
-ul.social-media-links li {
-	display:inline-block;
-	padding:10px 5px 0 5px;
-}
-
-ul.social-media-links img {
-	height:40px;
-}
-
-.right-container {
-	float:right;
-}
-
-/** font-face specific style attributes **/
-.code {
-	font-family:Courier New, sans-serif;
-	font-size:14px;
-}
-
-
-.blog-links {
-	list-style:none;
-	padding-left:10px;
-	display:table;
-	width:100%;
-}
-.blog-links a{
-	display:table-cell;
-	vertical-align: middle;
+.social-links a {
 	height:inherit;
-	text-indent:35px;
-	line-height:3;
+	display:block;
+}
+.social-links img {
+	height:inherit;
+	padding:2px;
 }
 
-.git-link {
-	display:inline-block;
-	height:30px;
-	width:30px;
-	background-image:url('../images/github_02.png');
-	background-size:100%;
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
-.instagram-link {
-	display:inline-block;
-	height:30px;
-	width:30px;
-	background-image:url('../images/instagram.png');
-	background-size:100%;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.instagram-link a,
-.git-link a {
-	position:absolute;
-	width:100%;
-}
-
-.thumb {
-	border:1px solid #5d5d5d;
-}
-
-.thumb-center {
-	display:block !important;
+.blog-post {
+	width:550px !important;
 	margin:0 auto;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:14px;
+	color:#E8EAEA;
+}
+.post-date {
+	font-size:12px;
+	float:right;
+	margin:0;
 }
 
-.thumb-nikon-2 {
-	display: inline-block;
-	float:left;
-	width:100%;
-	margin:5px;
-}
-
-.thumb-phone {
-	width:60%;
-	display: inline-block;
-}
-
-.thumb-inline {
-	float:left;
-	margin-right:10px;
-}
-
-.thumb-clear {
-	clear:both;
-}
-
-.base-padding {
-	padding:5px;
-}
-
-.col-1 { width:100%; }
-.col-2 {
-	width:50%;
-	float:left;
+kbd {
+	letter-spacing:1.25px;
+	padding: 2px 4px;
+	font-size: 20px;
+    color:#fff;
+    background-color:#333;
+    border-radius:3px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
 }
