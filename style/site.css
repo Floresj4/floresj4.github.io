@@ -53,16 +53,16 @@ body {
 	padding:2px;
 }
 
-@media(max-width:640px){ 
+@media(min-width:640px){ 
 	.blog-post { 
 		width:550px !important;
-		font-size:14px;
+		font-size:14px !important;
 	}
 }
-@media(max-width:360px){ 
+@media(min-width:360px){ 
 	.blog-post { 
 		width:360px !important;
-		font-size:13px;
+		font-size:13px !important;
 		letter-spacing:1px;
 	}
 }
@@ -70,7 +70,8 @@ body {
 .blog-post {
 	margin:0 auto;
 	font-family:Verdana, Arial, sans-serif;
-	color:#E8EAEA;
+	font-size:14px;
+	color:#e8eaea;
 }
 .post-date {
 	font-size:12px;
