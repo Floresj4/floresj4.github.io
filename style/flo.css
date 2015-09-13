@@ -10,9 +10,7 @@
 
 .stg-col-2, .stg-col-3, .stg-col-4, .stg-col-5 { float:left; }
 
-
 .stage { width:640px !important; margin:0 auto; }
-
 
 @media (max-width:360px) { 
 	.stage { width:360px !important; margin:0 auto; }

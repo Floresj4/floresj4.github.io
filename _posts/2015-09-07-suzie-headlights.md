@@ -3,8 +3,8 @@ title: "Suzie's New Lenses"
 date: 2015-09-07
 ---
 
-<div class='stg-col-1' style='height:400px; overflow:auto'>
-	<div class='stg-col-2' style="width:77% !important;">
+<div class='stg-col-1 suzie-light'>
+	<div class='suzie-light-left'>
 		<p>
 		Suzie is my 2009 Subaru Legacy 2.5i.  I recently came across an opportunity to restore the headlights via product&#8209;review &amp; survey which landed me a free kit.  It's been 6 years and her shades have accumulated a slight haze.
 		</p><p>
@@ -22,7 +22,7 @@ date: 2015-09-07
 		</p>
 	</div>
 
-	<div class='stg-col-2' style="width:23% !important; height:100%;">
+	<div class='suzie-light-right'>
 		<div class='stg-col-1 image-link'>
 			<a href='/images/headlightrestore00.JPG' data-lightbox="headlightrestore">
 				<img src="/images/headlightrestore00.JPG" />
