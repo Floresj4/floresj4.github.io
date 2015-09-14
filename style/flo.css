@@ -20,7 +20,13 @@
 .h1, .h2, .h3, .h4, .h5, .h6,
 h1, h2, h3, h4, h5, h6 {
 	padding-top:0;
-	padding-bottom:0;
+	padding-bottom:5px;
+}
+
+h1 {
+	font-size:32px;
+	font-weight:100;
+	letter-spacing:1px;
 }
 
 .spacer-btm-sm { margin-bottom:5px; }

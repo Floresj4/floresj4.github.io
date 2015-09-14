@@ -2,6 +2,7 @@ body {
 	background-color:#2b3954;
 	margin-top:0;
 	margin-bottom:0;
+	font-family:'open sans', arial, sans-serif
 }
 
 .header-bar {
@@ -13,8 +14,11 @@ body {
 	top:0;
 }
 
-.my-image { width:200px; }
-@media(device-width:360px) {
+.my-image {
+	width:200px;
+	border:5px solid #000;
+}
+@media(min-width:360px) {
 	.my-image {
 		display:block;
 		margin:0 auto;
@@ -53,13 +57,13 @@ body {
 	padding:2px;
 }
 
-@media(min-width:640px){ 
+@media(max-width:640px){ 
 	.blog-post { 
 		width:550px !important;
 		font-size:14px !important;
 	}
 }
-@media(min-width:360px){ 
+@media(max-width:360px){ 
 	.blog-post { 
 		width:360px !important;
 		font-size:13px !important;
@@ -69,7 +73,6 @@ body {
 
 .blog-post {
 	margin:0 auto;
-	font-family:Verdana, Arial, sans-serif;
 	font-size:14px;
 	color:#e8eaea;
 }
