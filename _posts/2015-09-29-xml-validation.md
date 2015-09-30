@@ -9,7 +9,7 @@ entire workspace.
 <ul>
 	<li>Right-click project -> Properties.</li>
 	<li>Validation -> Enable project specific settings.</li>
-	<li>Validators select select the ellipsis to add a file to the exclusion group.</li>
+	<li>Select the ellipsis to add a file to the exclusion group.</li>
 	<li>Select the Exclude Group topic and select Add Rule.</li>
 	<li>Select the Folder or file name as the filter type and browse for file.</li>
 </ul>
