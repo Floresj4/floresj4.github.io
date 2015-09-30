@@ -8,6 +8,7 @@ body {
 .header-bar {
 	background-color: #000;
 	position: absolute;
+	width:100%;
 	height:150px;
 	z-index:-1;
 	left:0;
@@ -18,10 +19,10 @@ body {
 	width:200px;
 	border:5px solid #000;
 }
-@media(min-width:360px) {
+@media(max-width:360px) {
 	.my-image {
-		display:block;
-		margin:0 auto;
+		display: block;
+		margin: 0 auto;
 	}
 }
 
@@ -70,7 +71,6 @@ body {
 		letter-spacing:1px;
 	}
 }
-
 .blog-post {
 	margin:0 auto;
 	font-size:14px;
@@ -79,22 +79,13 @@ body {
 .blog-post ul li {
 	line-height: 1.5em;
 }
-.post-date {
+.blog-post .post-date {
 	font-size:12px;
 	float:right;
 	margin:0;
 }
 
-kbd {
-	letter-spacing:1.25px;
-	padding: 2px 4px;
-	font-size: 20px;
-    color:#fff;
-    background-color:#333;
-    border-radius:3px;
-    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
-    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
-}
+
 
 /** Special post-specific styles **/
 @media(max-width:360px) {
