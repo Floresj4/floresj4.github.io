@@ -3,8 +3,6 @@ title: "Disable Eclipse XML validation"
 date: 2015-09-29
 ---
 
-<h3>Disabling XML validation in Eclipse</h3>
-
 I may need this in the future...  This is done at a project level instead of the
 entire workspace.
 
