@@ -76,6 +76,9 @@ body {
 	font-size:14px;
 	color:#e8eaea;
 }
+.blog-post ul li {
+	line-height: 1.5em;
+}
 .post-date {
 	font-size:12px;
 	float:right;
