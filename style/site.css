@@ -85,9 +85,32 @@ body {
 	margin:0;
 }
 
+.blog-links {
+	list-style:none;
+}
+
+.blog-links a{
+	background-size:contain;
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+	float:left;
+}
+.blog-links a.git {
+	background-image: url(../images/github_01.png);
+}
+.blog-links span.link-text {
+	display: table-cell;
+	height: 40px;
+	vertical-align: middle;
+	text-indent: 10px;
+}
 
 
+/**********************************/
 /** Special post-specific styles **/
+/**********************************/
 @media(max-width:360px) {
 	.suzie-light,
 	.suzie-light-left, 
