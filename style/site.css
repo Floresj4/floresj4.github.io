@@ -120,3 +120,7 @@ span.git {
 .suzie-light-left, .suzie-light-right { float:left; }
 .suzie-light-left { width:77% !important; }
 .suzie-light-right { width:23% !important; }
+
+.console {
+	font-family:courier, sans-serif;
+}
