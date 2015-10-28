@@ -76,6 +76,11 @@ body {
 	font-size:14px;
 	color:#e8eaea;
 }
+.blog-post a {
+	cursor: pointer;
+	text-decoration:none;
+	color: #D27035;
+}
 .blog-post ul li {
 	line-height: 1.5em;
 }
@@ -88,25 +93,19 @@ body {
 .blog-links {
 	list-style:none;
 }
+.blog-links a {
+	display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+}
 
-.blog-links a{
-	background-size:contain;
-    text-decoration: none;
-    display: block;
+span.git {
+    background-image: url(../images/github_00.png);
+	display: table-cell;
     width: 40px;
     height: 40px;
-	float:left;
+    background-size: 40px;
 }
-.blog-links a.git {
-	background-image: url(../images/github_01.png);
-}
-.blog-links span.link-text {
-	display: table-cell;
-	height: 40px;
-	vertical-align: middle;
-	text-indent: 10px;
-}
-
 
 /**********************************/
 /** Special post-specific styles **/
