@@ -44,14 +44,17 @@ a {
 		float:right;
 	}
 }
-.social-links { padding:0; }
+.social-links {
+	padding:0;
+}
 .social-links li {
 	display:inline-block;
 	float:right;
+	margin-left:10px;
 }
 
-@media(min-width:360px) { .social-links li { height:40px; } }
-@media(min-width:640px) { .social-links li { height:60px; } }
+@media(min-width:360px) { .social-links li { height:30px; } }
+@media(min-width:640px) { .social-links li { height:50px; } }
 
 .social-links a {
 	height:inherit;
