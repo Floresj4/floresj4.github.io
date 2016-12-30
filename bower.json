@@ -18,6 +18,8 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.4",
-    "lightbox2": "~2.8.1"
+    "lightbox2": "~2.8.1",
+    "fontawesome-markdown": "https://github.com/bmcorser/fontawesome-markdown.git#^0.2.4",
+    "font-awesome": "^4.7.0"
   }
 }
