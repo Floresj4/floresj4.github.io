@@ -46,9 +46,10 @@ a {
 	}
 }
 .blog-post {
-	margin:0 auto;
+	margin:0 auto 50px;
 	font-size:13px;
 	color:#666;
+	width:80%;
 }
 .blog-post h2 {
 	color:#000;
