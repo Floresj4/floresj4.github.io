@@ -22,6 +22,8 @@ a {
 .my-image {
 	width:200px;
 	border:5px solid #000;
+	float:right;
+	margin-right:120px;
 }
 @media(max-width:360px) {
 	.my-image {
