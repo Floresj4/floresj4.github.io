@@ -3,15 +3,13 @@ layout: default
 ---
 
 {% for post in site.posts %}
-	<div class='stg-col-1 blog-post'>
+	<div class='blog-post'>
 		<h2>{{ post.title }}</h2>
-		
-		{{post.content}}
-		
-		<div class='stg-col-1 spacer-btm-xlg'>
-			<p class='post-date'>
-			{{post.date | date: "%-d %B %Y"}}
-			</p>
+		<div>{{post.content}}</div>
+		<div>
+			<ul class='blog-dates'>
+				<li class='post-date'>{{post.date | date: "%-d %B %Y"}}</li>
+			</ul>
 		</div>
 	</div>
 {% endfor %}
