@@ -1,39 +1,40 @@
 <!doctype html>
 <html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% if page.title %}{{ page.title }}{% else %} Floresj4.github.io{% endif %}</title>
 	<link rel='stylesheet' type='text/css' href='bower_components/lightbox2/dist/css/lightbox.css' />
 	<link rel='stylesheet' type='text/css' href='style/site.css' />
-	<link rel='stylesheet' type='text/css' href='style/flo.css' />
+	<link rel='stylesheet' type='text/css' href='style/smlinks.css' />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type='text/javascript' src="bower_components/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
 	
 	<div class='stg-col-1 header-bar'></div>
 
-	<div class='stg-col-1 stage'>
+	<div class='.container'>
 	
-		<div class='stg-col-2 spacer-btm-xlg'>
-			<img src='./images/jflores.jpeg' class='my-image'/>
+		<div class='row'>
+			<div class='col-md-3'></div>
+			<div class='col-md-3'>
+				<img src='./images/jflores.jpeg' class='my-image'/>
+			</div>
+			<div class='col-md-6'>
+				<ul class='social-links'>
+					<li><a href="https://www.linkedin.com/pub/jason-flores/1b/396/239" class='linkedin' target="_blank"></a></li>
+					<li><a href="https://twitter.com/floresj1183" class='twitter' alt="Mostly retweets of science and technology" target="_blank"></a></li>
+					<li><a href="https://instagram.com/floresj04" class='instagram' alt="Picture my life..." target="_blank"></a></li>
+					<li><a href="https://github.com/Floresj4" class='github' target="_blank"></a></li>
+				</ul>
+			</div>
+			
 		</div>
-		<div class='stg-col-2 spacer-btm-xlg'>
-			<ul class='social-links'>
-				<li><a href="https://www.linkedin.com/pub/jason-flores/1b/396/239" target="_blank">
-					<img src="images/linkedin.png" />
-				</a></li>
-				<li><a href="https://twitter.com/floresj1183" alt="Picture my life..." target="_blank">
-					<img src="images/twitter00.png"/>
-				</a></li>
-				<li><a href="https://instagram.com/floresj04" alt="Picture my life..." target="_blank">
-					<img src="images/instagram.png"/>
-				</a></li>
-				<li><a href="https://github.com/Floresj4" target="_blank">
-					<img src="images/github_02.png"/>
-				</a></li>
-			</ul>
-		</div>
-		
-	<div class='stg-col-1'>
+	
+		<!-- leave the container open to be closed
+				by the footer attachment; for complete html -->
