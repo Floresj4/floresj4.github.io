@@ -20,21 +20,16 @@ a {
 }
 
 .my-image {
-	width:200px;
 	border:5px solid #000;
-	float:right;
-	margin-right:120px;
-}
-@media(max-width:360px) {
-	.my-image {
-		display: block;
-		margin: 0 auto;
-	}
+	display:block;
+	padding:0;
+	margin:0 auto;
 }
 
 /**********************************/
 /** Special post-specific styles **/
 /**********************************/
+/** move out of here... **/
 @media(max-width:360px) {
 	.suzie-light,
 	.suzie-light-left, 
@@ -42,6 +37,7 @@ a {
 		height:765px;
 	}
 }
+
 .suzie-light-left, .suzie-light-right { float:left; }
 .suzie-light-left { width:77% !important; }
 .suzie-light-right { width:23% !important; }
