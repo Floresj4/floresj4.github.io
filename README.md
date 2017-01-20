@@ -6,3 +6,4 @@ training, but as a bit of having fun as well.
 ### Hosted projects
 
 * [Angular REST Client](http://floresj4.github.io/AngularJS/#/home/)
+* [D3js](http://floresj4.github.io/D3js)
