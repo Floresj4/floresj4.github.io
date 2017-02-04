@@ -17,18 +17,23 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type='text/javascript'>
-		var w;
-		
 		//ensure workers are available first
 		if(typeof(Worker) !== "undefined") {
 			addEventListener('load', function() {
-				var code = document.querySelector("code");
+				var code = document.querySelectorAll("code");
 
-				var w = new Worker("./scripts/worker.js");
-				w.onmessage = function() {
-					code.innerHTML = event.data;
+				var worker = new Worker("./scripts/worker.js");
+				worker.onmessage = function(event) {
+					var msg = event.data;
+					code[msg.index].innerHTML = msg.textContent;
 				};
-				w.postMessage(code.textContent);
+				
+				for(var i = 0; i < code.length; i++) {
+					worker.postMessage(msg = {
+						index : i, 
+						textContent : code[i].textContent 
+					});
+				}
 			});
 		} else
 			console.log("web workers unavailable.  Upgrade your browser!");
