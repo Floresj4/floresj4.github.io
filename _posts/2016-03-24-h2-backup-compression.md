@@ -1,5 +1,5 @@
 ---
-title: "H2 Backup with Compression"
+title: "H2 Database backup & compression"
 date: 2016-03-24
 ---
 
@@ -10,15 +10,15 @@ date: 2016-03-24
  SCRIPT TO allows you to dump the contents of a database into a backup file which 
  can optionally be compressed.  For example,
 
-```
+<pre><code class='sql'>
  SCRIPT TO 'c:/temp/data.db' compression deflate;
- ```
+</code></pre>
 
  RUNSCRIPT is used to load the script file - into persistent storage (flat-file) or memories 
  tables supported by H2.
  
- ```
+ <pre><code class='sql'>
  RUNSCRIPT 'c:/temp/data.db' compression deflate;
- ```
+ </code></pre>
  
  Compression and deflate are both options to the grammar commands.
