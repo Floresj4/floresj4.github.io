@@ -3,7 +3,7 @@ title: "highlight.js"
 date: 2017-01-29
 ---
 
-   Highlight is a javascript syntax coloring library.  Highlight provides automatic language 
+   <a target="_blank" href='https://highlightjs.org/'>Highlight</a> is a javascript syntax coloring library.  Highlight provides automatic language 
    detection and multi-language code highlighting.
 
    Example Java highlighting
