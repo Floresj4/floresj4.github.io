@@ -2,16 +2,31 @@
 ul.blog-dates {
 	list-style:none;
 }
+
+.blog-post-nav ul {
+	float:right;
+	list-style:none;
+	padding-left:0;
+}
+.blog-post-nav ul li {
+	display:inline-block;
+}
+
+.blog-post-nav,
 .blog-post {
-	margin:0 auto 50px;
+	margin:0 auto;
 	font-size:13px;
 	color:#666;
 	width:80%;
 }
+.blog-post {
+	margin-bottom: 50px;
+}
 .blog-post h2 {
 	color:#000;
 }
-.blog-post a {
+.blog-post a,
+.blog-post-nav a {
 	cursor: pointer;
 	text-decoration:none;
 	color: #D27035;
