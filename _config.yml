@@ -2,4 +2,5 @@ highlighter: rouge
 github: [Repository metadata]
 gems: [jekyll-paginate]
 paginate: 5
+paginate_path: "/blog/"
 markdown_ext: "markdown,mkdown,mdkn,mkd,md"
