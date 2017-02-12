@@ -1,33 +1,11 @@
 {% include header.html %}
 
-<!-- Pagination links -->
 <div class='row'>
 	<div class='col-md-2 col-lg-3'></div>
 	<div class='col-md-8 col-lg-6'>
 
-		<div class="blog-post-nav">
-			<ul>
-				<li>
-				  {% if paginator.previous_page %}
-					<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-				  {% else %}
-					<span class="previous">Previous</span>
-				  {% endif %}
-				</li>
+		{% include pagination-nav.html %}
 
-				<li>
-					<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-				</li>
-
-				<li>
-				  {% if paginator.next_page %}
-					<a href="{{ paginator.next_page_path }}" class="next">Next</a>
-				  {% else %}
-					<span class="next ">Next</span>
-				  {% endif %}
-				</li>
-			</ul>
-		</div>
 	</div>
 	<div class='col-md-2 col-lg-3'></div>
 </div>
@@ -53,5 +31,17 @@
 	<div class='col-md-2 col-lg-3'></div>
 </div>
 {% endfor %}
+
+<div class='row'>
+	<div class='col-md-2 col-lg-3'></div>
+	<div class='col-md-8 col-lg-6'>
+
+		<div class='centered-blog-nav'>
+			{% include pagination-nav.html %}
+		</div>
+
+	</div>
+	<div class='col-md-2 col-lg-3'></div>
+</div>
 
 {% include footer.html %}

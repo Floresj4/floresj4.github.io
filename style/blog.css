@@ -1,3 +1,7 @@
+.centered-blog-nav {
+	width:200px;
+	margin:0 auto;
+}
 
 ul.blog-dates {
 	list-style:none;
