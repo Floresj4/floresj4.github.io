@@ -24,23 +24,63 @@ a {
 	display:block;
 	padding:0;
 	margin:0 auto;
+	float:right;
 }
 
-/**********************************/
-/** Special post-specific styles **/
-/**********************************/
-/** move out of here... **/
-@media(max-width:360px) {
-	.suzie-light,
-	.suzie-light-left, 
-	.suzie-light-right {
-		height:765px;
-	}
+.stretch {
+	width:100%;
+	clear:left;
 }
 
-.suzie-light-left, .suzie-light-right { float:left; }
-.suzie-light-left { width:77% !important; }
-.suzie-light-right { width:23% !important; }
+ul.social-links {
+    list-style: none;
+	padding-left: 0;
+	width:272px;
+	margin:70px auto 15px auto;
+	float:left;
+}
+ul.social-links li {
+	display:inline-block;
+	width:65px;
+}
+ul.social-links a {
+	display:block;
+	width: 65px;
+    height: 65px;
+}
+ul.social-links a.linkedin,
+ul.social-links a.twitter, 
+ul.social-links a.instagram,
+ul.social-links a.github {
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+ul.social-links a.linkedin { background-image: url(../images/linkedin.png); }
+ul.social-links a.instagram{ background-image: url(../images/instagram.png); }
+ul.social-links a.twitter{ background-image: url(../images/twitter00.png); }
+ul.social-links a.github{ background-image: url(../images/github_00.png); }
+
+ul.site-nav {
+	list-style: none;
+	padding-left:10px;
+	padding-top:10px;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+ul.site-nav li {
+	display:inline-block;
+}
+ul.site-nav a {
+	display:block;
+	padding:1px 15px;
+	color: #777;
+	text-decoration:none;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+ul.site-nav a.separator {
+	border-right:1px solid #bbb;
+}
 
 .console {
 	font-family:courier, sans-serif;

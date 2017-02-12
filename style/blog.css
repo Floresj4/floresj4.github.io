@@ -3,6 +3,10 @@
 	margin:0 auto;
 }
 
+.blog-nav-top {
+	padding-top:30px;
+}
+
 ul.blog-dates {
 	list-style:none;
 }
