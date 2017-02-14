@@ -57,6 +57,10 @@ ul.blog-dates {
     padding-left: 10px;
 }
 
+code.smaller {
+	font-size:10px;
+}
+
 span.git {
     background-image: url(../images/github_00.png);
 	display: table-cell;
