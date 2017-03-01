@@ -3,6 +3,10 @@ title: "Enabling pagination"
 date: 2017-02-11
 ---
 
+   The configuration below allows for pagination of posts using the Jekyll blogging engine.  After configuration
+   additional pages will be generated as <code>/blog/{pagenum}/index.html</code> based on the number of posts
+   per page.
+   
    In the _config.yml file add
 
 <pre><code>
