@@ -19,6 +19,23 @@ a {
 	cursor:pointer;
 }
 
+a.project-link {
+	color: #D27035;
+}
+a.project-link-icon {
+	color:#000;
+	text-decoration:none;
+}
+
+sup{
+	font-size:65% !important;
+}
+
+ul.references {
+	list-style:none;
+	font-size:85%;
+}
+
 .my-image {
 	border:5px solid #000;
 	display:block;
@@ -79,7 +96,7 @@ ul.site-nav {
 	padding-top:10px;
 	font-size: 14px;
 	margin-bottom: 0;
-	width:155px;
+	width:240px;
 }
 ul.site-nav li {
 	display:inline-block;

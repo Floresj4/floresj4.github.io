@@ -15,7 +15,8 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type='text/javascript'>
-		//ensure workers are available first
+
+		//create and run worker
 		if(typeof(Worker) !== "undefined") {
 			addEventListener('load', function() {
 				var code = document.querySelectorAll("code");
@@ -37,6 +38,8 @@
 			});
 		} else
 			console.log("web workers unavailable.  Upgrade your browser!");
+		
+
 	</script>
 </head>
 <body>
@@ -64,6 +67,7 @@
 				<div class='stretch'>
 					<ul class='site-nav'>
 						<li><a {% if page.url != "/" %} href='../../index.html' {%else%} href='./index.html'{%endif%} class='separator'>Home</a></li>
+						<li><a {% if page.url != "/" %} href='../../projects.html' {%else%} href='./projects.html'{%endif%} class='separator'>Projects</a></li>
 						<li><a {% if page.url != "/" %} href='../../about.html' {%else%} href='./about.html'{%endif%}>About</a></li>
 					</ul>
 				</div>
