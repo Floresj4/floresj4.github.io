@@ -16,9 +16,9 @@ body {
 }
 
 a { cursor:pointer; }
-a:hover{ text-decoration:none !important; }
+.project-link a:hover{ text-decoration:none !important; }
 
-a.project-link {
+.project-link a {
 	color: #D27035;
 }
 a.project-link-icon {
@@ -28,7 +28,8 @@ a.project-link-icon {
 
 small.project-status {
 	padding-left:10px;
-	color: #ff6b6b;
+	color: #D27035;
+	display: none;
 }
 
 sup{

@@ -24,8 +24,9 @@
 				
 				$dsbld.on('click', function(event) {
 					event.preventDefault();
-				}).hover(function() { $projectStatus.text("coming soon"); },
-						 function() { $projectStatus.text(""); }
+				}).hover(() => { 
+						$projectStatus.fadeToggle();
+					}, () => $projectStatus.fadeToggle()
 				);
 			});
 		});	
