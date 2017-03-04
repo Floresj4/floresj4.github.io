@@ -16,6 +16,25 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type='text/javascript'>
 
+		$(function(){
+
+			$('.project-link').each(function() {
+				var $dsbld = $(this).find('.disabled');
+				var $projectStatus = $(this).find('.project-status');
+				
+				$dsbld.on('click', function(event) {
+					event.preventDefault();
+				}).hover(function() { $projectStatus.text("coming soon"); },
+						 function() { $projectStatus.text(""); }
+				);
+			});
+		});	
+
+		function findAndReport() {
+			
+		}
+		
+		
 		//create and run worker
 		if(typeof(Worker) !== "undefined") {
 			addEventListener('load', function() {
@@ -38,7 +57,6 @@
 			});
 		} else
 			console.log("web workers unavailable.  Upgrade your browser!");
-		
 
 	</script>
 </head>
