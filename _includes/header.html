@@ -24,17 +24,11 @@
 				
 				$dsbld.on('click', function(event) {
 					event.preventDefault();
-				}).hover(() => { 
-						$projectStatus.fadeToggle();
-					}, () => $projectStatus.fadeToggle()
+				}).hover(() => $projectStatus.fadeToggle(),
+					() => $projectStatus.fadeToggle()
 				);
 			});
 		});	
-
-		function findAndReport() {
-			
-		}
-		
 		
 		//create and run worker
 		if(typeof(Worker) !== "undefined") {
