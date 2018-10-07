@@ -1,0 +1,11 @@
+.blog-date {
+    height: 18px;
+}
+.blog-date p {
+    float: right;
+    font-size: 12px;
+}
+
+.blog-container {
+    margin-bottom: 10px;
+}
