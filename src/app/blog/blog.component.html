@@ -1,3 +1,13 @@
 <div class='blog-container' *ngFor='let b of blogs'>
-  {{ b.title }}
+  
+  <h3 class='blog-title'>{{ b.title }}</h3>
+  
+  <div class='blog-body'
+    [innerHtml]="b.body">
+  </div>
+
+  <div class='blog-date'>
+    <p>{{ formatDate(b.date) }}</p>
+  </div>
+
 </div>
