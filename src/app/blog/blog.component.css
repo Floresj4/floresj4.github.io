@@ -4,8 +4,9 @@
 .blog-date p {
     float: right;
     font-size: 12px;
+    padding-left: 10px;
 }
 
 .blog-container {
-    margin-bottom: 10px;
+
 }
