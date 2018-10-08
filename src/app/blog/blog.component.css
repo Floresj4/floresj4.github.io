@@ -1,12 +1,21 @@
+p {
+    font-size: 12px !important;
+}
+
 .blog-date {
     height: 18px;
 }
+
 .blog-date p {
     float: right;
     font-size: 12px;
     padding-left: 10px;
 }
 
-.blog-container {
+.blog-body {
+    font-size: 12px;
+}
 
+.blog-link a {
+    cursor: pointer;
 }
