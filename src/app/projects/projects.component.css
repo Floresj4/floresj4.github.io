@@ -1,0 +1,12 @@
+.project-container {
+    margin-bottom: 10px;
+}
+
+.project-url a {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.project-body p {
+    margin-bottom: 0;
+}
