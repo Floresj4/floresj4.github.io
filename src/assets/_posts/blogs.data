@@ -1,19 +1,25 @@
 [
     {
+        "title": "Angular rewrite",
+        "date": "2018-10-07",
+        "tags": "angular javascript",
+        "body": ""
+    },
+    {
         "title": "Angular drag-n-drop",
         "date": "2018-07-21",
         "tags": "angular javascript",
-        "body": "<p>Exploring drag-n-drop functionality using Angular components and event binding.  The structural  directive <code>*ngFor</code> is used to create list-item elements and bind the events necessary to  support drag-n-drop functionality - <code>(dragstart)</code>, <code>(dragover)</code>, and <code>(drop)</code>.  The draggable attribute is also set on each element to ensure they can be dragged.</p> <div class='blog-link'><a href='https://floresj4.github.io/angular-drag-n-drop/' alt=''>angular-drag-n-drop</a></div>"
+        "body": "<p>Exploring drag-n-drop functionality using Angular components and event binding.  The structural directive <code>*ngFor</code> is used to create list-item elements and bind the events necessary to support drag-n-drop functionality - <code>(dragstart)</code>, <code>(dragover)</code>, and <code>(drop)</code>.  The draggable attribute is also set on each element to ensure they can be dragged.</p> <div class='blog-link'><a href='https://floresj4.github.io/angular-drag-n-drop/' alt=''>Angular drag-n-drop</a></div>"
     },
     {
-        "title" :  "Bootstrap overhaul",
+        "title":  "Bootstrap overhaul",
         "date": "2017-01-15",
         "body": "The site's style overhaul is complete.  flo.css is out and bootstrap is in.  flo.css was a small Responsive Web Development (RWD) learning project and the layout of  floresj4.github.io.  For all the responsive needs it wasn't feasible to try and recreate a framework such as bootstrap, but a good opportunity to understand what's going on under the hood."
     },
     {
-        "title" : "H2 Database backup & compression",
-        "date" : "2016-03-24",
-        "body" : "<p>As part of the H2 data manipulation grammar the H2 database engine provides RUNSCRIPT and SCRIPT commmands.   Using these commands, you can script and compress an H2 embedded database for light-weight storage and accessibility.</p><p>SCRIPT TO allows users to dump the contents of an entire database into a backup file which can optionally be compressed.  For example, <code><pre>SCRIPT TO 'c:/temp/data.db' compression deflate;</code></pre></p><p>RUNSCRIPT is used to load the script file - into persistent storage (flat-file) or memories tables supported by H2. <pre><code class='sql'> RUNSCRIPT 'c:/temp/data.db' compression deflate; </code></pre></p><p>Compression and deflate are both options to the grammar commands.</p>"
+        "title": "H2 Database backup & compression",
+        "date": "2016-03-24",
+        "body": "<p>As part of the H2 data manipulation grammar the H2 database engine provides RUNSCRIPT and SCRIPT commmands.   Using these commands, you can script and compress an H2 embedded database for light-weight storage and accessibility.</p><p>SCRIPT TO allows users to dump the contents of an entire database into a backup file which can optionally be compressed.  For example, <code><pre>SCRIPT TO 'c:/temp/data.db' compression deflate;</code></pre></p><p>RUNSCRIPT is used to load the script file - into persistent storage (flat-file) or memories tables supported by H2. <pre><code class='sql'> RUNSCRIPT 'c:/temp/data.db' compression deflate; </code></pre></p><p>Compression and deflate are both options to the grammar commands.</p>"
     },
     {
         "title": "Disable Eclipse XML validation",
@@ -26,14 +32,14 @@
         "body": "The Responsive branch of this project re-styles the original template to be mobile friendly. The new CSS stylings supporting landscape and portrait orientations on 360 and 640 pixel widths and a device pixel ratio of 3.  Chrome Developer tools' device mode was set to a Samsung Galaxy S4. I opted to create my own CSS stylings instead of using a commercial-public framework, like Bootstrap, to practice Responsive Web Development (RWD) and CSS Media Queries."
     },
     {
-        "title" : "3M Headlight Restoration",
-        "date" : "2015-09-07",
-        "body" : "<div class='stg-col-1 suzie-light'> <p> I recently came across an opportunity to restore the headlights on my Subaru, gratis, via a product&#8209;review &amp; survey at work.  It's been 6 years and the lenses have accumulated a slight haze. </p><p> Nothing too bad, but why let it worsen...  The first two images show the amount of buildup and the start of the project.  I'll briefly describe the project and include some images. </p><p> The 3M Headlight Restoration Kit consisted of a drill-attachment sanding/buffing pad, masking tape, sand paper (P500 &amp; P800), a 3M Trizact refining disc (P3000), and a protective coating wipe. </p><p> It starts with the P500 disc...  I'll admit, I was worried as soon as the disc touched the lense.  It scratched away enough material to make me doubt the outcome.  Regardless, I continue sanding and wiping until I had a smooth even lense again. </p><p> Another session of sanding and wiping with the P800 follows. </p><p> Next, buffing with the Trizact disc.  This was a clay-like disc which requires the lense surface remain saturated during the buff; science&ndash;magic.  After buffing evenly the headlights are beginning to come back to life, still a bit foggy... </p><p> Lastly, the 3M coating is applied.  Between the Trizact pad and the protective coating, this is where all the magic is.  Any haze which remains is wiped away effortlessly.  It's quite impressive! </p><p class='console'> [Headlight images removed] </p> <p> Added to the backlog... I'll plan to use Flickr or whatever I consider a suitable alternative. </p> </div>"
+        "title": "3M Headlight Restoration",
+        "date": "2015-09-07",
+        "body": "<div class='stg-col-1 suzie-light'> <p> I recently came across an opportunity to restore the headlights on my Subaru, gratis, via a product&#8209;review &amp; survey at work.  It's been 6 years and the lenses have accumulated a slight haze. </p><p> Nothing too bad, but why let it worsen...  The first two images show the amount of buildup and the start of the project.  I'll briefly describe the project and include some images. </p><p> The 3M Headlight Restoration Kit consisted of a drill-attachment sanding/buffing pad, masking tape, sand paper (P500 &amp; P800), a 3M Trizact refining disc (P3000), and a protective coating wipe. </p><p> It starts with the P500 disc...  I'll admit, I was worried as soon as the disc touched the lense.  It scratched away enough material to make me doubt the outcome.  Regardless, I continue sanding and wiping until I had a smooth even lense again. </p><p> Another session of sanding and wiping with the P800 follows. </p><p> Next, buffing with the Trizact disc.  This was a clay-like disc which requires the lense surface remain saturated during the buff; science&ndash;magic.  After buffing evenly the headlights are beginning to come back to life, still a bit foggy... </p><p> Lastly, the 3M coating is applied.  Between the Trizact pad and the protective coating, this is where all the magic is.  Any haze which remains is wiped away effortlessly.  It's quite impressive! </p><p class='console'> [Headlight images removed] </p> <p> Added to the backlog... I'll plan to use Flickr or whatever I consider a suitable alternative. </p> </div>"
     },
     {
         "title": "Custom Java Annotations",
         "date": "2015-08-15",
-        "body" : "Cross one off my list... I had been telling myself I would make time to write a custom annotation processor for some time now and now was today.  In the simplest scenario, I create a field-level annotation defining the creation of an object without an explicit call to a factory method which would otherwise be used.  It elimates a small amount of up-front code and provides a direct-inject resource at construction. <ul class='blog-links'><li><span class='git'></span><a href='https://github.com/Floresj4/JavaAnnotations' target='_blank'>@Floresj4/JavaAnnotations</a></li></ul>"
+        "body": "Cross one off my list... I had been telling myself I would make time to write a custom annotation processor for some time now and now was today.  In the simplest scenario, I create a field-level annotation defining the creation of an object without an explicit call to a factory method which would otherwise be used.  It elimates a small amount of up-front code and provides a direct-inject resource at construction. <ul class='blog-links'><li><span class='git'></span><a href='https://github.com/Floresj4/JavaAnnotations' target='_blank'>@Floresj4/JavaAnnotations</a></li></ul>"
     },
     {   
         "title": "Blogging with Jekyll",
