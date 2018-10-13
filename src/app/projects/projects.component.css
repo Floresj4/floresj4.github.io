@@ -2,11 +2,28 @@
     margin-bottom: 10px;
 }
 
+.project-title a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .project-url a {
     font-size: 10px;
     cursor: pointer;
 }
 
-.project-body p {
-    margin-bottom: 0;
+.project-description p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.angular-logo,
+.javascript-logo {
+    max-width: 100%;
+    max-height: 75px;
+    padding-left: 10px;
+}
+
+.no-pad {
+    padding: 0;
 }

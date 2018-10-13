@@ -1,15 +1,46 @@
 <div class='row'>
-  <div class='project-container col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1' *ngFor='let p of projects'>
-    
-    <h4 class='project-title'>{{ p.title }}</h4>
-    
-    <div class='project-body'>
-      <p>{{ p.description }}</p>
-    </div>
-
-    <div class='project-url'>
-      <a [href]='p.url'>{{ p.url }}</a>
-    </div>
-
+  <div class='col-xs-12 col-sm-6'>
+    <ul class="list-group">
+      
+      <li class='list-group-item no-pad'>
+        <img src='./assets/images/angular-logo.png'
+          class='angular-logo' />
+      </li>
+      
+      <li *ngFor='let p of angularProjects()'
+        class='list-group-item'>
+        
+        <h5 class='project-title'>
+          <a [href]='p.url' alt=''>{{ p.title }}</a>
+        </h5>
+      
+        <div class='project-description'>
+          <p>{{ p.description }}</p>
+        </div>
+      </li>
+    </ul>
   </div>
+
+  
+  <div class='col-xs-12 col-sm-6'>
+      <ul class="list-group">
+
+        <li class='list-group-item no-pad'>
+          <img src='./assets/images/javascript-logo.png'
+            class='javascript-logo' />
+        </li>
+
+        <li *ngFor='let p of javascriptProjects()'
+          class='list-group-item'>
+          <h5 class='project-title'>
+              <a [href]='p.url' alt=''>{{ p.title }}</a>
+          </h5>
+
+          <div class='project-description'>
+            <p>{{ p.description }}</p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
 </div>

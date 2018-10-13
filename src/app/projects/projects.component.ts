@@ -25,4 +25,11 @@ export class ProjectsComponent implements OnInit {
       });
   }
 
+  angularProjects() {
+    return this.projects['angular'];
+  }
+
+  javascriptProjects() {
+    return this.projects['javascript'];
+  }
 }

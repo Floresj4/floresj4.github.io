@@ -1,37 +1,41 @@
-[
-	{
-		"title" : "Angular binding & view encapsulation",
-		"description" : "Binding events and view encapsulation techniques.",
-		"url" : "https://floresj4.github.io/angular-binding-view-encapsulation/"
-	},
-	{
-		"title" : "Angular custom pipes",
-		"description" : "Creating custom pipes to transform and filter data.",
-        "url" : "https://floresj4.github.io/angular-custom-pipes/"
-	},
-	{
-		"title" : "Angular drag-n-drop",
-		"description" : "An implementation of Drag-n-drop using Angular components and event binding.",
-        "url" : "https://floresj4.github.io/angular-drag-n-drop/"
-	},
-	{
-		"title" : "Angular recipe manager",
-		"description" : "Course project covering all topics of Angular4 - The Complete Guide on udemy.com.",
-        "url" : "https://floresj4.github.io/angular-recipe-manager/recipes"
-	},
-	{
-		"title" : "Angular services",
-		"description" : "Section 9 (Using Services & Dependency Injection) completion project of Angular4 - The Complete Guide on udemy.com",
-        "url" : "https://floresj4.github.io/angular-services/"
-	},
-	{
-		"title" : "Angular forms",
-		"description" : "Working with forms, template and reactive approaches.",
-        "url" : "https://floresj4.github.io/angular-forms/"
-	},
-	{
-		"title" : "shadowbox.js",
-		"description" : "A simple javascript library for shadow boxing content.",
-        "url" : "https://floresj4.github.io/shadowbox/"
-	}
-]
+{
+	"angular" :	[
+		{
+			"title" : "Angular binding & view encapsulation",
+			"description" : "Binding events and view encapsulation techniques.",
+			"url" : "https://floresj4.github.io/angular-binding-view-encapsulation/"
+		},
+		{
+			"title" : "Angular custom pipes",
+			"description" : "Creating custom pipes to transform and filter data.",
+			"url" : "https://floresj4.github.io/angular-custom-pipes/"
+		},
+		{
+			"title" : "Angular drag-n-drop",
+			"description" : "An implementation of Drag-n-drop using Angular components and event binding.",
+			"url" : "https://floresj4.github.io/angular-drag-n-drop/"
+		},
+		{
+			"title" : "Angular recipe manager",
+			"description" : "A Udemy course project demonstrating various topics covered throughout the curriculm.",
+			"url" : "https://floresj4.github.io/angular-recipe-manager/recipes"
+		},
+		{
+			"title" : "Angular services",
+			"description" : "Creating injectable services classes to facilitate data access; Create Read Update and Delete functionality to manage application state.",
+			"url" : "https://floresj4.github.io/angular-services/"
+		},
+		{
+			"title" : "Angular forms",
+			"description" : "Working with forms, template and reactive approaches.",
+			"url" : "https://floresj4.github.io/angular-forms/"
+		}
+	],
+	"javascript" : [
+		{
+			"title" : "shadowbox.js",
+			"description" : "A simple javascript library for shadow boxing content.",
+			"url" : "https://floresj4.github.io/shadowbox/"
+		}
+	]
+}
