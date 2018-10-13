@@ -53,10 +53,10 @@ ul.navigation-links li {
 ul.navigation-links a {
     color: #aaa;
     cursor: pointer;
+    text-decoration: none;
 }
 ul.navigation-links a:hover {
     color: #ddd;
-    text-decoration: none;
 }
 
 @media (max-width: 768px) { 
