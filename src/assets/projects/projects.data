@@ -47,9 +47,14 @@
 	],
 	"java": [
 		{
-			"title" : "AES Encryption (github gist)",
+			"title" : "AES Encryption",
 			"description" : "Basic AES encryption/decription of Java primitives.",
 			"url" : "https://gist.github.com/Floresj4/63a5c59367957c487769dddfdcc3f347"
+		},
+		{
+			"title": "Jackson-databind custom mapping",
+			"description": "A custom mapping module to demonstrate serializing/deserializing Enumerated values.",
+			"url": "https://github.com/Floresj4/jackson-case-bind"
 		}
 	]
 }

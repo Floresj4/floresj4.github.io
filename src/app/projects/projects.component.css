@@ -2,6 +2,14 @@
     margin-bottom: 10px;
 }
 
+h1.project-title,
+h2.project-title,
+h3.project-title,
+h4.project-title,
+h5.project-title {
+    margin-bottom: 5px;
+}
+
 .project-title a {
     text-decoration: none;
     cursor: pointer;
@@ -13,7 +21,7 @@
 }
 
 .project-description p {
-    font-size: 10px;
+    font-size: 11px;
     margin: 0;
 }
 
