@@ -1,14 +1,14 @@
 p {
-    font-size: 12px !important;
+    font-size: 12px;
 }
 
 .blog-date {
     height: 18px;
 }
 
-.blog-date p {
+.blog-date {
     float: right;
-    font-size: 12px;
+    font-size: 11px;
     padding-left: 10px;
 }
 
