@@ -32,4 +32,8 @@ export class ProjectsComponent implements OnInit {
   javascriptProjects() {
     return this.projects['javascript'];
   }
+
+  pythonProjects() {
+    return this.projects['python'];
+  }
 }

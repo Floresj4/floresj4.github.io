@@ -4,7 +4,7 @@
       
       <li class='list-group-item'>
         <img src='./assets/images/angular-logo_01.png'
-          class='angular-logo' />
+          class='project-logo' />
       </li>
       
       <li *ngFor='let p of angularProjects()'
@@ -27,7 +27,7 @@
 
         <li class='list-group-item'>
           <img src='./assets/images/javascript-logo.png'
-            class='javascript-logo' />
+            class='project-logo' />
         </li>
 
         <li *ngFor='let p of javascriptProjects()'
@@ -42,5 +42,29 @@
         </li>
 
       </ul>
-    </div>
+  </div>
+
+
+  <div class='col-xs-12'>
+    <ul class='list-group'>
+
+      <li class='list-group-item'>
+        <img src='./assets/images/python-logo.png'
+          class='project-logo' />
+      </li>
+
+      <li *ngFor='let p of pythonProjects()'
+        class='list-group-item'>
+
+        <h5 class='project-title'>
+            <a [href]='p.url' alt=''>{{ p.title }}</a>
+        </h5>
+
+        <div class='project-description'>
+          <p>{{ p.description }}</p>
+        </div>
+
+      </li>
+    </ul>
+  </div>
 </div>

@@ -37,5 +37,12 @@
 			"description" : "A simple javascript library for shadow boxing content.",
 			"url" : "https://floresj4.github.io/shadowbox/"
 		}
+	],
+	"python" : [
+		{
+			"title" : "network-py",
+			"description" : "Understanding network semantics using python scripts.",
+			"url" : "https://github.com/Floresj4/network-py"
+		}
 	]
 }
