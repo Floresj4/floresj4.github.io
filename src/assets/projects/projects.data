@@ -44,5 +44,12 @@
 			"description" : "Understanding network semantics using python scripts.",
 			"url" : "https://github.com/Floresj4/network-py"
 		}
+	],
+	"java": [
+		{
+			"title" : "AES Encryption (github gist)",
+			"description" : "Basic AES encryption/decription of Java primitives.",
+			"url" : "https://gist.github.com/Floresj4/63a5c59367957c487769dddfdcc3f347"
+		}
 	]
 }
