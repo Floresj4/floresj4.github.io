@@ -1,5 +1,11 @@
 [
     {
+        "title": "Angular 5 rewrite",
+        "date": "2018-10-13",
+        "tags": "angular javascript",
+        "body": "<p>Hopefully the last restructure I go through for a while as Angular seems to be my framework of choice for Single Page Applications (SPAs).  I decided to drop the Jekyll scheme and pursue a Single Page Application design where I had more control; sure the blogging functionality provided by Jekyll was convenient, but as a developer I need more control for features outside standard html publishing.</p><p>The <a href='./projects'>projects</a> page got a face lift as well.  New sections are added to divide projects by their language or platform.</p>"
+    },
+    {
         "title": "Angular drag-n-drop",
         "date": "2018-07-21",
         "tags": "angular javascript",
