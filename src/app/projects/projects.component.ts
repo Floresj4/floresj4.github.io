@@ -12,6 +12,10 @@ export class ProjectsComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
 
+  get(name: string) {
+    return this.projects[name];
+  }
+
   ngOnInit() {
     const options = {
       headers: new HttpHeaders({
@@ -26,14 +30,18 @@ export class ProjectsComponent implements OnInit {
   }
 
   angularProjects() {
-    return this.projects['angular'];
+    return this.get('angular');
   }
 
   javascriptProjects() {
-    return this.projects['javascript'];
+    return this.get('javascript');
   }
 
   pythonProjects() {
-    return this.projects['python'];
+    return this.get('python');
+  }
+
+  javaProjects() {
+    return this.get('java');
   }
 }
