@@ -1,7 +1,8 @@
 <div class='row'>
+  
   <div class='col-xs-12 col-sm-6'>
+
     <ul class="list-group">
-      
       <li class='list-group-item'>
         <img src='./assets/images/angular-logo_01.png'
           class='project-logo' />
@@ -19,6 +20,7 @@
         </div>
       </li>
     </ul>
+
   </div>
 
   
@@ -40,54 +42,57 @@
             <p>{{ p.description }}</p>
           </div>
         </li>
+      </ul>
 
+      <ul class='list-group'>
+
+        <li class='list-group-item'>
+          <img src='./assets/images/python-logo.png'
+            class='project-logo' />
+        </li>
+  
+        <li *ngFor='let p of pythonProjects()'
+          class='list-group-item'>
+  
+          <h5 class='project-title'>
+              <a [href]='p.url' alt=''>{{ p.title }}</a>
+          </h5>
+  
+          <div class='project-description'>
+            <p>{{ p.description }}</p>
+          </div>
+  
+        </li>
+      </ul>
+
+      <ul class='list-group'>
+        <li class='list-group-item'>
+          <img src='./assets/images/java-logo_01.png'
+            class='project-logo' />
+        </li>
+  
+        <li *ngFor='let p of javaProjects()'
+          class='list-group-item'>
+  
+          <h5 class='project-title'>
+              <a [href]='p.url' alt=''>{{ p.title }}</a>
+          </h5>
+  
+          <div class='project-description'>
+            <p>{{ p.description }}</p>
+          </div>
+  
+        </li>
       </ul>
   </div>
 
 
   <div class='col-xs-12'>
-    <ul class='list-group'>
 
-      <li class='list-group-item'>
-        <img src='./assets/images/python-logo.png'
-          class='project-logo' />
-      </li>
-
-      <li *ngFor='let p of pythonProjects()'
-        class='list-group-item'>
-
-        <h5 class='project-title'>
-            <a [href]='p.url' alt=''>{{ p.title }}</a>
-        </h5>
-
-        <div class='project-description'>
-          <p>{{ p.description }}</p>
-        </div>
-
-      </li>
-    </ul>
   </div>
 
   <div class='col-xs-12'>
-    <ul class='list-group'>
 
-      <li class='list-group-item'>
-        <img src='./assets/images/java-logo_01.png'
-          class='project-logo' />
-      </li>
-
-      <li *ngFor='let p of javaProjects()'
-        class='list-group-item'>
-
-        <h5 class='project-title'>
-            <a [href]='p.url' alt=''>{{ p.title }}</a>
-        </h5>
-
-        <div class='project-description'>
-          <p>{{ p.description }}</p>
-        </div>
-
-      </li>
-    </ul>
   </div>
+
 </div>
