@@ -23,7 +23,7 @@ export class BlogComponent implements OnInit {
       })
     };
 
-    this.http.get<any>('./assets/_posts/blogs.data', options)
+    this.http.get<any>('./assets/data/blogs.data', options)
       .subscribe((response: any) => {
         this.blogs = response;
       });

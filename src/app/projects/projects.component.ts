@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
       })
     };
 
-    this.http.get<any>('./assets/projects/projects.data', options)
+    this.http.get<any>('./assets/data/projects.data', options)
       .subscribe((response: any) => {
         this.projects = response;
       });
