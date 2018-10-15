@@ -47,6 +47,11 @@
 	],
 	"java": [
 		{
+			"title": "Custom Annotations",
+			"description": "Creating a runtime annotation to dynamically load and instantiate classes. See <a class='project-description-link' href='https://github.com/Floresj4/JavaAnnotations/tree/master/src/test/java/com/flores/annotations'>src/test/...</a> for implementation and testing.",
+			"url": "https://github.com/Floresj4/JavaAnnotations" 
+		},
+		{
 			"title" : "AES Encryption",
 			"description" : "Basic AES encryption/decription of Java primitives.",
 			"url" : "https://gist.github.com/Floresj4/63a5c59367957c487769dddfdcc3f347"
