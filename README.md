@@ -1,3 +1,3 @@
-# Floresj4.io
+# floresj4.github.io
 
-I've been [moved](http://floresj4.io.s3-website-us-east-1.amazonaws.com/).
+I've [moved](http://floresj4.com.s3-website-us-east-1.amazonaws.com/)...
