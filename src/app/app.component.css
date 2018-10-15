@@ -67,4 +67,12 @@ ul.navigation-links a:hover {
     ul.social-links {
         margin: 15px auto 5px auto;
     }
+
+    ul.navigation-links {
+        width: 210px;
+        margin: 0 auto;
+    }
+    ul.navigation-links li:first-child {
+        padding-left: 20px;
+    }
 }
