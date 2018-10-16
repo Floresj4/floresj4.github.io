@@ -19,6 +19,7 @@ img.my-image {
     margin: 0 auto;
     float: right;
     border: 5px solid #000;
+    background-color: #000;
 }
 
 /* social media navigation */
